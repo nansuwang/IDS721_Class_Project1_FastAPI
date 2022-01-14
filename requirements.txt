@@ -12,8 +12,5 @@ httptools==0.3.0
 pydantic==1.8.2
 mangum==0.12.2
 pytest
-<<<<<<< HEAD
 black
-=======
 requests
->>>>>>> f26147e4772f4656e2c5d5d43cefba8dc938ddee
