@@ -6,7 +6,7 @@ test:
 	python -m pytest -vv test_app.py
 
 format:
-	black app.py
+	black *.py
 
 run:
 	python main.py
