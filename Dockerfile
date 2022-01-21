@@ -1,6 +1,5 @@
 # use conda to forge the dependencies
 FROM public.ecr.aws/lambda/python:3.8
-FROM continuumio/miniconda3:4.10.3-alpine
 
 # make the dir
 RUN mkdir -p /app
