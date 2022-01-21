@@ -12,10 +12,10 @@ COPY Makefile /app/
 COPY predictors.py /app/
 COPY test_app.py /app/
 COPY regression_model.pkl /app/
-COPY requirements.txt /app/
+COPY requirements.txt /tmp/requirements.txt
 
 # install all packages
-RUN pip install -r requirements.txt
+RUN pip install -r /tmp/requirements.txt
 
 # set working dir
 WORKDIR /app
