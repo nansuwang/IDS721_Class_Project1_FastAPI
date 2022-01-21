@@ -1,4 +1,4 @@
-# use conda to forge the dependencies
+# image
 FROM public.ecr.aws/lambda/python:3.8
 
 # make the dir
