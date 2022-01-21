@@ -14,3 +14,4 @@ mangum==0.12.2
 pytest
 black
 requests
+pickle

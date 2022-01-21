@@ -33,6 +33,7 @@ RUN conda install --yes --freeze-installed -c conda-forge \
     pytest \
     black \
     requests \
+    pickle \
     && conda clean -afy
 
 # set working dir
