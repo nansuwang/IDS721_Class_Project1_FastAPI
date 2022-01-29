@@ -11,11 +11,4 @@ It is containerized using Docker! Docker image could be easily built by running
 docker build -t .
 ```
 
-Main Process:
-1. Set up a AWS Cloud9 environment and link it to this Github repo
-2. Train a random forest regression model and export the model as pkl file. (training_rf.py)
-3. Make the input class using pydantic.BaseModel for doing input in the API. (beer.py)
-4. Build API using FastAPI object, defining GET request and POST request. I put the welcome information in GET requests both in main.py and app.py and put predict function in the POST request.
-5. Set up AWS App Runner Service linking with Github Repo. If changes are pushed to this repo, click the deploy buttion in the AWS App Runner could trigger the CD process.
-6. Could using the default url to reach the content in the GET request in the root directory; could add '/docs' at the end of the url to enter the swagger.
-7. I use the CI workflow: (1) Lint with Super-Linter; (2) Check setup (install); (3) Make tests using pytest.
+The dataset is from Kaggle. https://www.kaggle.com/parulpandey/2020-it-salary-survey-for-eu-region?select=IT+Salary+Survey+EU+2018.csv
